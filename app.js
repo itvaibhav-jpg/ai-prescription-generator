@@ -4,7 +4,7 @@ const resultSection = document.getElementById('resultSection');
 const prescriptionOutput = document.getElementById('prescriptionOutput');
 
 // Google Gemini API Configuration
-const GEMINI_API_KEY = 'AIzaSyDCRmHvPqbt3av-Ks_Ks_Ks_Ks_Ks_Ks_Ks_Ks';
+const GEMINI_API_KEY = 'AIzaSyDCRmHvPqbt3avQxGLKJZiWXqKJZiWXqKJ';
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${GEMINI_API_KEY}`;
 
 form.addEventListener('submit', async (e) => {
