@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MediScript AI - Enterprise-grade AI-powered medical prescription generator using Google Gemini. Generate professional prescriptions instantly.">
+    <meta name="keywords" content="AI prescription generator, medical prescription, healthcare AI, Gemini AI, medical software">
+    <meta name="author" content="Kumar Vaibhav">
+    <meta property="og:title" content="MediScript AI - AI Prescription Generator">
+    <meta property="og:description" content="Generate professional medical prescriptions using advanced AI technology">
+    <meta property="og:type" content="website">
     <title>MediScript AI - Enterprise Prescription Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
 </head>
 <body>
     <div class="container">
@@ -23,7 +30,7 @@
                     <div class="form-grid">
                         <div class="form-group">
                             <label for="patientName">Patient Name *</label>
-                            <input type="text" id="patientName" required placeholder="Enter patient's full name">
+                            <input type="text" id="patientName" required placeholder="Enter patient's full name" autocomplete="name">
                         </div>
 
                         <div class="form-group">
@@ -96,6 +103,11 @@
                 </div>
             </div>
         </div>
+
+        <footer style="text-align: center; color: white; margin-top: 30px; padding: 20px; opacity: 0.9;">
+            <p>© 2025 MediScript AI | Powered by Google Gemini AI</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Created by Kumar Vaibhav | For Educational & Professional Use</p>
+        </footer>
     </div>
 
     <script src="app.js"></script>
